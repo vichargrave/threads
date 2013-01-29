@@ -3,4 +3,6 @@ threads
 
 Java style Pthreads library in C++
 
-To build just run make.
+Build
+=====
+To build the test application just cd to threads directory then type "make".

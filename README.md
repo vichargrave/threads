@@ -1,7 +1,7 @@
 threads
 =======
 
-Java style Pthreads library in C++
+Example source code for the article 'Java Style Threads Class in C++'.
 
 Build
 =====

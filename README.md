@@ -6,4 +6,5 @@ Example source code for the article 'Java Style Threads Class in C++'.
 Build
 =====
 
-Build the test application by running 'make'.
+1. cd to the 'threads' directory.
+2. Type 'make'.

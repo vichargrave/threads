@@ -1,6 +1,6 @@
 # threads
 
-Example source code for the article [_Java Style Threads Class in C++_](http://vichargrave.com/java-style-thread-class-in-c/).
+Example code from my Java Style Threads Class in C++ blog.
 
 ## Build
 

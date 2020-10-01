@@ -1,6 +1,6 @@
 CC		= g++
 CFLAGS		= -c -Wall
-LDFLAGS		= -pthread
+LDFLAGS		= -lpthread
 SOURCES		= main.cpp thread.cpp
 INCLUDES	= -I.
 OBJECTS		= $(SOURCES:.cpp=.o)

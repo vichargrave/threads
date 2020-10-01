@@ -1,6 +1,6 @@
-CC			= g++
+CC		= g++
 CFLAGS		= -c -Wall
-LDFLAGS		= -lpthread
+LDFLAGS		= -pthread
 SOURCES		= main.cpp thread.cpp
 INCLUDES	= -I.
 OBJECTS		= $(SOURCES:.cpp=.o)
@@ -9,7 +9,7 @@ TARGET		= thread
 all: $(SOURCES) $(TARGET)
 
 $(TARGET): $(OBJECTS) 
-	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
+	$(CC) $(OBJECTS) -o $@ $(LDFLAGS) 
 
 .cpp.o:
 	$(CC) $(CFLAGS) $(INCLUDES) $< -o $@
